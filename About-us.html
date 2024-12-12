@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>About Page</title>
+<style>
+    h2 {text-align: center;}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d16105;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav a.aboutus{
+    background-color: #072dac;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.text {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+  border: solid;
+  width: 50%;
+  color: #d16105;
+}
+</style>
+</head>
+<body>
+  
+    
+<div class="topnav" id="myTopnav">
+  <a href="Index.html">Home</a>
+  <a href="About-us.html" class="aboutus">About Us</a>
+  <a href="Gallery.html">Gallery</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div style="padding-left:16px">
+    <h2>About Page</h2>
+  
+  </div>
+  <div class="text">
+    <div>
+      <h2>Local lore has come  up with several versions on how the name
+         "Tangub" came about, but all of these stories carry one common thread:
+          the name originated from the word "tangkub," the local name for rice
+           baskets made of rattan strips that the Subanens carried on their backs. 
+
+        One such version tells us of lost Spanish soldiers who chanced upon a Subanen
+         couple. Asked what the name of the place was, the couple replied, "Tangkub", thinking
+          they were asked what they were carrying.  Tangkub" later became "Tangub" giving name to the frontier town in Panguil Bay. </h2><br>
+          <h2>The chain of events that led to the creation of Tangub as a city started in 1929, some sixty-four years ago, when it became a municipality by virtue of an executive order by American Governor-General Dwight Davis.
+
+            The then Municipality of Tangub saw an influx of migrants at the beginning 
+             of the American Occupation. With the peopling of the Tangub grew a sense of
+              community. In the late 1920s, a movement to secure socio-economic and political
+               independence for Tangub was born. It was forged by a group of community leaders who
+                called themselves the Aspiracion Committee. This committee began their valiant
+                 efforts to make Tangub an independent Municipality from Misamis. The efforts of 
+                 the Aspiracion Committee were not in vain. On December 4, 1929, Governor-General 
+                 Dwight F. Davis issued executive Order No. 220 creating the municipality of Regidor
+                  -- named in honor of Dr. Antonio Ma. Regidor, one of the Filipino leaders who participated 
+                  in the Reform Movement during the Spanish regime -- with the seat of government in the barrio of Tangub.</h2>
+    </div>
+
+  </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
